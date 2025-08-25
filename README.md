@@ -2,14 +2,13 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Tanya’s Portfolio</title>
+ Tanya’s Portfolio 
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
     <h1>Hi, I’m Tanya! 👩‍💻</h1>
-    [IMG_1148](https://github.com/user-attachments/assets/a730c4b7-6945-4862-8a3a-f6fed8f7275e)
-    <p>Certified Mobile & Web Developer</p>
+<img src="https://github.com/tanyamarshman/portfolio-/blob/main/IMG_1148.jpg?raw=true" alt="Tanya's profile photo" style="width:120px; border-radius:60px; margin-top:12px;">  <p>Certified Mobile & Web Developer</p>
   </header>
   <section>
     <h2>Projects</h2>
