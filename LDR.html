@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laundry Done Right</title>
+    <img src="/Users/tonyam/Desktop/semester 2/laundromat.jpg.webp">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #0056b3;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            background: url('laundromat.jpg') no-repeat center center/cover;
+            height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        }
+        .hero h1 {
+            font-size: 3em;
+        }
+        .services, .about, .contact {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .services h2, .about h2, .contact h2 {
+            color: #007bff;
+            margin-bottom: 20px;
+        }
+        .services p, .about p, .contact p {
+            margin: 0 0 20px;
+            color: #555;
+        }
+        .services ul {
+            list-style: none;
+            padding: 0;
+        }
+        .services ul li {
+            margin: 10px 0;
+            color: #333;
+        }
+        footer {
+            background-color: #343a40;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to Laundry Done Right</h1>
+    <p>Your one-stop solution for clean, fresh laundry!</p>
+</header>
+
+<nav>
+    <ul>
+    <li><a href="#services">Services</a> </li>
+    <li><a href="#about">About Us</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#pricing">Pricing</a></li>
+    </ul>   
+</nav>
+
+<section id="home" class="hero">
+    <div class="hero-content">
+    <h2>Fast, Clean, Reliable</h2>
+    <p>Reliable, fast, and eco-friendly laundry services.</p>
+    <a href="#contact" class="cta-btn">Schedule a Pickup</a>
+</div>
+</section>
+
+<section id="services" class="services">
+    <h2>Our Services</h2>
+        <div class="service">
+            <h3>Standard Laundry Service</h3>
+            <p>Wash, dry, and fold service for your everyday laundry needs.</p>
+        </div>
+        <div class="service">
+            <h3>Wash & Fold</h3>
+            <p>Drop off your laundry and pick it up clean and folded.
+                Affordable pricing with quick turnaround.</p>
+        </div>
+        <div class="service">
+            <h3>Ironing & Pressing</h3>
+            <p>Shirts, pants, and other items professionally pressed.</p>
+        </div>
+        <div class="service">
+            <h3>Pickup & Delivery</h3>
+            <p>Convenient laundry pickup and delivery service (optional, but highly attractive in urban areas)..</p>
+        </div>
+</section>
+
+<section id="about" class="about">
+    <h2>About Us</h2>
+    <p>Laundry Done Right has been serving the community with top-notch laundry services for over a decade. Our state-of-the-art machines and friendly staff ensure your laundry experience is hassle-free and efficient.</p>
+</section>
+
+<section id="faq">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-item">
+        <h3>How do I schedule a pickup?</h3>
+        <p>Simply click the "Schedule a Pickup" button at the top of the page, and we'll arrange a convenient time for you!</p>
+    </div>
+    <div class="faq-item">
+        <h3>Do you offer eco-friendly detergents?</h3>
+        <p>Yes, we use eco-friendly detergents for all our laundry services!</p>
+    </div>
+    <div class="faq-item">
+        <h3>Do you have anything for children to do?</h3>
+        <p>Yes, we do there is a children section.</p>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>Email: info@laundrydoneright.com</p>
+    <p>Phone: (123) 478-9890</p>
+    <p>Address: 123 Main Street, San Antonio, TX</p>
+</section>
+<section id="contact">
+    <form action="#" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+<footer>
+    <p>&copy; 2025 Laundry Done Right. All rights reserved.</p>
+    <div class="social-links">
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+        <a href="#">Twitter</a>
+    </div>
+</footer>
+
+</body>
+</html>
+
